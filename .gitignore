@@ -1,0 +1,36 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Docker volumes (local data)
+postgres_data/
+pgadmin_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+*.swp
+*.tmp
+
+# Coverage
+coverage/
+
+# Docker override files
+docker-compose.override.yml
