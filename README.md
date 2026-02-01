@@ -104,8 +104,8 @@ exit
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/simple-crud-app.git
-cd simple-crud-app
+git clone https://github.com/Krishankant89/crud-app.git
+cd crud-app
 
 # Start application
 docker-compose up -d
@@ -162,7 +162,7 @@ git add .
 git commit -m "Initial commit"
 
 # Create GitHub repository and push
-git remote add origin https://github.com/yourusername/simple-crud-app.git
+git remote add origin https://github.com/yourusername/crud-app.git
 git branch -M main
 git push -u origin main
 ```
