@@ -10,6 +10,9 @@ yarn-error.log*
 postgres_data/
 pgadmin_data/
 
+# Docker generated
+*.pid
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -34,3 +37,12 @@ coverage/
 
 # Docker override files
 docker-compose.override.yml
+
+# SSH keys (important!)
+*.pem
+
+# pgAdmin session files
+.pgadmin/
+
+# Mac/Linux cache
+__pycache__/
